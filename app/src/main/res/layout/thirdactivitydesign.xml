@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imgtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/imgtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A carrrrr" />
+
+        <TextView
+            android:id="@+id/imgtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/imgtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Futura soldier, very nice" />
+
+        <TextView
+            android:id="@+id/imgtitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/imgtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A very good carrrr" />
+
+        <TextView
+            android:id="@+id/imgtitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/imgtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hueeeeeee" />
+
+        <TextView
+            android:id="@+id/imgtitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/imgtext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wait a minute..." />
+    </LinearLayout>
+</ScrollView>
